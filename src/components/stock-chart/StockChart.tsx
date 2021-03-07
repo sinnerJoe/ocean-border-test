@@ -32,7 +32,7 @@ const aggregateLabels: Record<AggregateQuotes, string> = {
     low: 'Low'
 }
 
-const red = '#cf1322';
+const red = '#fa541c';
 const blue = '#1890ff';
 const orange = '#fadb14';
 
