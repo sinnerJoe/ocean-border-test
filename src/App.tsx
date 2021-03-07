@@ -5,12 +5,11 @@ import { fetchQuotes } from './shared/requests';
 import { Col, Row, Typography, Checkbox } from 'antd';
 import ConfigPanel, { SearchFormData } from './components/config-panel/ConfigPanel';
 import { QuoteInterval } from './shared/types';
+import { ParentSize } from '@visx/visx';
 import moment from 'moment';
 
 import 'antd/dist/antd.css';
 import './App.scss';
-import { totalmem } from 'os';
-import { ParentSize } from '@visx/visx';
 
 const { Text } = Typography;
 

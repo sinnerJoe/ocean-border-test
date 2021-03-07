@@ -1,4 +1,3 @@
-import { timeStamp } from 'console';
 import moment, { Moment } from 'moment'
 import { QuoteRequestResponse } from './requests';
 import {QuoteInterval} from './types';

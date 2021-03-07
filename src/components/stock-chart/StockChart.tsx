@@ -1,7 +1,6 @@
 import React, { useMemo, useRef } from 'react';
 import { scaleBand, scaleLinear, scaleOrdinal, useTooltip, useTooltipInPortal, Group, BarGroup, LegendOrdinal } from '@visx/visx';
 import { defaultStyles } from '@visx/tooltip';
-import { Grid } from '@visx/grid'
 import { SeriesPoint, BarGroupBar } from '@visx/shape/lib/types';
 import { localPoint } from '@visx/event';
 import { AxisBottom, AxisLeft } from '@visx/axis';
