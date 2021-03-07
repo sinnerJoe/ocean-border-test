@@ -32,9 +32,9 @@ const aggregateLabels: Record<AggregateQuotes, string> = {
     low: 'Low'
 }
 
-const red = '#6c5efb';
-const blue = '#c998ff';
-const orange = 'orange';
+const red = '#cf1322';
+const blue = '#1890ff';
+const orange = '#fadb14';
 
 const axisStrokeColor = '#cAA8ff';
 
@@ -193,9 +193,6 @@ export default function StockChart({ data, width = 800, height = 600, displayAve
                         <strong>{aggregateLabels[tooltipData.key]}</strong>
                     </div>
                     <div>{tooltipData.value.toFixed(2)}$</div>
-                    {/* <div>
-            <small>{tooltipData.bar}</small>
-          </div> */}
                 </TooltipInPortal>
             )}
         </div >
