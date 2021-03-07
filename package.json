@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ant-design/icons": "^4.5.0",
+    "@rooks/use-on-window-resize": "^4.9.2",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -10,10 +12,17 @@
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "@visx/visx": "^1.6.1-alpha.12",
+    "antd": "^4.13.1",
+    "axios": "^0.21.1",
+    "moment": "^2.29.1",
+    "node-sass": "^5.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.3",
+    "react-spring": "^8.0.27",
     "typescript": "^4.1.2",
+    "use-debounce": "^5.2.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
