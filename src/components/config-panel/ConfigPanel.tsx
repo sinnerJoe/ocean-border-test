@@ -36,7 +36,11 @@ export default function ConfigPanel(props: ConfigPanelProps) {
             onFinish={submitData}
             initialValues={props.config}
             form={form}>
-            <Item label="Stock" name="symbol">
+            <Item 
+                className="input-width" 
+                label="Stock"
+                name="symbol"
+            >
                 <SymbolInput />
             </Item>
             <Item 

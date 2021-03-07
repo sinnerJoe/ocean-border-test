@@ -82,7 +82,6 @@ export default function SymbolInput(props: SymbolInputProps) {
             }
             return false;
         }}
-        className="input-width" 
         {...props} 
         />
     )
