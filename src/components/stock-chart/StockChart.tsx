@@ -35,7 +35,7 @@ const red = '#fa541c';
 const blue = '#1890ff';
 const orange = '#fadb14';
 
-const axisStrokeColor = '#cAA8ff';
+const axisStrokeColor = '#8c8c8c';
 
 export const background = '#eaedff';
 const margin = { top: 40, right: 0, bottom: 0, left: 0 };
@@ -158,7 +158,7 @@ export default function StockChart({ data, width = 800, height = 600, displayAve
                     stroke={axisStrokeColor}
                     tickStroke={axisStrokeColor}
                     tickLabelProps={() => ({
-                        fill: axisStrokeColor,
+                        fill: "black",
                         fontSize: 11,
                         textAnchor: 'middle',
                     })}

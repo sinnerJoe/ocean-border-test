@@ -61,10 +61,10 @@ function App() {
       <div className="vertical-center full-page">
 
         <Row align="middle">
-          <Col span={24} lg={8}>
+          <Col span={24} lg={8} xl={4}>
             <ConfigPanel loading={loading} config={config} onSubmit={setConfig} />
           </Col>
-          <Col span={24} lg={16}>
+          <Col span={24} lg={16} xl={20}>
             <Row>
               <Col span={24} ref={chartContainer}>
                 <ParentSize>
