@@ -67,7 +67,7 @@ export default function SymbolInput(props: SymbolInputProps) {
 
     }
 
-    const {callback: handleSearch} = useDebouncedCallback(search, 1000)
+    const {callback: handleSearch} = useDebouncedCallback(search, 300)
 
     return (
         <Select 
